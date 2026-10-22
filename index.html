@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>梅山茶脉 · 安化黑茶 AI 数字人文平台</title>
+    <meta
+      name="description"
+      content="梅山茶脉：安化黑茶的资料与辨识工具。收录 12 款茶品档案、万里茶道 11 站路线、千两茶 10 道工序，另有金花与霉变的对照、可查冲泡与存储的 AI 问答，以及个人存茶记录。"
+    />
+    <meta name="theme-color" content="#234d3c" />
+    <link rel="icon" href="assets/favicon.svg?v=73d7a318" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/fonts.css?v=aef96ce5" />
+    <link rel="stylesheet" href="css/style.css?v=3bde7d83" />
+    <link rel="stylesheet" href="css/refined.css?v=4ee43e3b" />
+  </head>
+  <body>
+    <a href="#view" class="skip-link">跳至主要内容</a>
+    <div class="paper-grain" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#/home">
+        <span class="brand-seal">茶脉</span>
+        <span class="brand-text">
+          <strong>梅山茶脉</strong>
+          <em>安化黑茶 AI 数字人文平台</em>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-controls="nav"
+        aria-expanded="false"
+      >
+        导览 <span aria-hidden="true">☰</span>
+      </button>
+      <nav class="nav" id="nav" aria-label="主导航"></nav>
+      <div class="userarea" id="userarea"></div>
+    </header>
+
+    <main id="view" class="view" tabindex="-1">
+      <div class="loading-block">正在展开茶卷…</div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <strong>梅山茶脉 · 安化黑茶 AI 数字人文平台</strong>
+          <p>参赛赛道：移动与网络应用开发类赛项（自主选题）</p>
+          <p>题材依托：湖南省益阳市安化县安化黑茶传统制作技艺与梅山文化</p>
+        </div>
+        <div class="footer-col">
+          <strong>内容说明</strong>
+          <p>
+            茶品档案与工艺数据为团队整理的学习资料；站内配图为 AI
+            生成的文化示意，不作为史实或实物鉴定凭据。
+          </p>
+          <p>
+            AI
+            茶博士的回答由大模型基于平台内置知识库生成，可能存在偏差，请以专业审评为准。
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal-host" id="modalHost" hidden></div>
+    <div class="toast-host" id="toastHost" aria-live="polite"></div>
+
+    <noscript><p class="empty">请启用 JavaScript 以浏览互动茶卷。</p></noscript>
+    <script src="js/config.js?v=a3ee464a"></script>
+    <script src="js/data.js?v=a1564df7"></script>
+    <script src="js/cloud.js?v=c838a0b1"></script>
+    <script src="js/store.js?v=3afd73fe"></script>
+    <script src="js/views-local-cellar.js?v=1d797a69"></script>
+    <script src="js/views-home.js?v=fcb0e405"></script>
+    <script src="js/views-archive.js?v=681ee740"></script>
+    <script src="js/views-road.js?v=410b026f"></script>
+    <script src="js/views-craft.js?v=2167928e"></script>
+    <script src="js/views-flower.js?v=17a4fa64"></script>
+    <script src="js/views-doctor.js?v=2ed193e8"></script>
+    <script src="js/views-cellar.js?v=9e5274ff"></script>
+    <script src="js/app.js?v=d16e7e6e"></script>
+  </body>
+</html>

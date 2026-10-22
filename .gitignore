@@ -1,0 +1,31 @@
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+.cache/
+tmp/
+
+# 环境与密钥（本项目前端仅使用公开配置，此处为通用防护）
+.env
+.env.*
+*.pem
+*.key
+
+# 办公软件临时文件
+~$*
+*.tmp
+
+# Generated browser evidence
+test-results/

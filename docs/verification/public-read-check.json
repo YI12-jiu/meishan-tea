@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-08",
+  "endpoint": "https://meishan-tea.app.workbuddy.host",
+  "method": "GET",
+  "authenticated": false,
+  "originHeaderOverridden": false,
+  "checks": [
+    {
+      "path": "/.cloud/llm/models",
+      "httpStatus": 200,
+      "arrayLength": 31
+    },
+    {
+      "path": "/.cloud/database/rest/tea_archives?select=id,name&limit=2",
+      "httpStatus": 200,
+      "arrayLength": 2
+    }
+  ],
+  "scope": "public read-only; no authentication, email, generation, or database writes; does not validate browser CORS or RLS"
+}

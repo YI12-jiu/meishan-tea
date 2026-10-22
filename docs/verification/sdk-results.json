@@ -1,0 +1,55 @@
+{
+  "sdkVersion": "0.1.3-dev.c090db7.202610050023",
+  "transport": "local HTTP fixture",
+  "productionRequests": 0,
+  "results": [
+    {
+      "name": "real SDK password login, persisted session and logout",
+      "passed": true
+    },
+    {
+      "name": "real SDK invalid credentials show useful error and allow retry",
+      "passed": true
+    },
+    {
+      "name": "real SDK existing-user OTP exchanges verification token for session",
+      "passed": true
+    },
+    {
+      "name": "real SDK new-user OTP requires password and uses signup endpoint",
+      "passed": true
+    },
+    {
+      "name": "real SDK reset-password handle verifies, resets and logs in",
+      "passed": true
+    },
+    {
+      "name": "real SDK local logout succeeds even when revoke endpoint fails",
+      "passed": true
+    },
+    {
+      "name": "real SDK filters disabled models and selects backend default",
+      "passed": true
+    },
+    {
+      "name": "real SDK interrupted SSE keeps partial response and restores question",
+      "passed": true
+    },
+    {
+      "name": "real SDK stop aborts the HTTP stream and leaves a stopped turn",
+      "passed": true
+    },
+    {
+      "name": "real SDK no enabled models keeps sending unavailable",
+      "passed": true
+    },
+    {
+      "name": "real SDK database builder sends query filters and bearer session",
+      "passed": true
+    },
+    {
+      "name": "vendored SDK uses only local network without browser exceptions",
+      "passed": true
+    }
+  ]
+}

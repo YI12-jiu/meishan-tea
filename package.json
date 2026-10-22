@@ -1,0 +1,17 @@
+{
+  "name": "meishan-tea",
+  "version": "2.1.0",
+  "private": true,
+  "description": "梅山茶脉：安化黑茶文化导览与个人茶仓",
+  "scripts": {
+    "test": "node test/e2e-local.cjs && node test/e2e-sdk.cjs",
+    "start": "python3 -m http.server 8899 --bind 127.0.0.1",
+    "test:local": "node test/e2e-local.cjs",
+    "test:sdk": "node test/e2e-sdk.cjs",
+    "build:offline": "python3 scripts/build-standalone.py",
+    "stamp": "python3 scripts/stamp-assets.py"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

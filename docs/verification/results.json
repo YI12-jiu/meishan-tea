@@ -1,0 +1,102 @@
+{
+  "browser": "153.0.8010.12",
+  "date": "2026-10-22T09:57:55.436Z",
+  "scope": "local Chromium with blocked external network; cloud services mocked",
+  "total": 23,
+  "passed": 23,
+  "failed": 0,
+  "results": [
+    {
+      "name": "7 routes render on desktop and 390px mobile without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "archive search, category, empty reset and comparison",
+      "passed": true
+    },
+    {
+      "name": "detail keyboard access, modal focus trap and handoff to AI",
+      "passed": true
+    },
+    {
+      "name": "road and craft interactions remember progress within session",
+      "passed": true
+    },
+    {
+      "name": "quiz completes and resets; illustration attribution is visible",
+      "passed": true
+    },
+    {
+      "name": "local cellar create, edit, refresh and escaped text",
+      "passed": true
+    },
+    {
+      "name": "export, delete confirmation, import and duplicate-safe import",
+      "passed": true
+    },
+    {
+      "name": "invalid backup cannot overwrite data",
+      "passed": true
+    },
+    {
+      "name": "private tasting notes and storage failure retain unsaved input",
+      "passed": true
+    },
+    {
+      "name": "public community is retained without login, with honest offline state",
+      "passed": true
+    },
+    {
+      "name": "corrupt local data is preserved and can be recovered",
+      "passed": true
+    },
+    {
+      "name": "offline login errors are handled without getting stuck",
+      "passed": true
+    },
+    {
+      "name": "mock cloud note saves once, resets its form and appears in the list",
+      "passed": true
+    },
+    {
+      "name": "mock cloud cellar save/reset, confirmed deletion and failed-write draft preservation",
+      "passed": true
+    },
+    {
+      "name": "failed sign-out retains session; successful sign-out clears private view",
+      "passed": true
+    },
+    {
+      "name": "AI streaming completes, context pairs stay intact, route return retains conversation",
+      "passed": true
+    },
+    {
+      "name": "Chinese IME Enter does not prematurely submit",
+      "passed": true
+    },
+    {
+      "name": "AI reset ignores late deltas from old request and unlocks new conversation",
+      "passed": true
+    },
+    {
+      "name": "AI stop and route change cancel stale streams",
+      "passed": true
+    },
+    {
+      "name": "AI errors restore question and never leave send disabled",
+      "passed": true
+    },
+    {
+      "name": "cloud SDK load failure does not block local pages or archive filtering",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser exceptions or production requests",
+      "passed": true
+    },
+    {
+      "name": "standalone file opens without external assets and local cellar works",
+      "passed": true
+    }
+  ]
+}

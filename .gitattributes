@@ -1,0 +1,13 @@
+# 统一换行符，避免跨平台协作产生无意义的差异
+* text=auto eol=lf
+
+# 图片按二进制处理
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.webp binary
+
+# 文档差异展示
+*.md text diff=markdown
