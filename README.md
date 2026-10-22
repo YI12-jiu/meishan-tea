@@ -4,7 +4,7 @@
 
 十二款茶按品类整理成档案，万里茶道十一站能一段段走，千两茶的十道工序拆开看。金花和霉变怎么分，这里有一张六维对照表；拿不准，可以问茶博士。存茶记录不用注册，存在浏览器里，也能导出。
 
-<img src="docs/screenshots/home.jpg" width="720" alt="首页">
+<img src="https://cdn.jsdelivr.net/gh/YI12-jiu/meishan-tea@main/docs/screenshots/home.jpg" width="720" alt="首页">
 
 线上版本：<https://meishan-tea.app.workbuddy.host/>
 
@@ -33,17 +33,17 @@
 ## 几个页面
 
 <p>
-  <img src="docs/screenshots/archive.jpg" width="49%" alt="茶品档案">
-  <img src="docs/screenshots/flower.jpg" width="49%" alt="金花鉴别">
+  <img src="https://cdn.jsdelivr.net/gh/YI12-jiu/meishan-tea@main/docs/screenshots/archive.jpg" width="49%" alt="茶品档案">
+  <img src="https://cdn.jsdelivr.net/gh/YI12-jiu/meishan-tea@main/docs/screenshots/flower.jpg" width="49%" alt="金花鉴别">
 </p>
 <p>
-  <img src="docs/screenshots/craft.jpg" width="49%" alt="千两茶十道工序">
-  <img src="docs/screenshots/cellar.jpg" width="49%" alt="我的茶仓">
+  <img src="https://cdn.jsdelivr.net/gh/YI12-jiu/meishan-tea@main/docs/screenshots/craft.jpg" width="49%" alt="千两茶十道工序">
+  <img src="https://cdn.jsdelivr.net/gh/YI12-jiu/meishan-tea@main/docs/screenshots/cellar.jpg" width="49%" alt="我的茶仓">
 </p>
 
 手机端：
 
-<img src="docs/screenshots/home-mobile.jpg" width="320" alt="手机端首页">
+<img src="https://cdn.jsdelivr.net/gh/YI12-jiu/meishan-tea@main/docs/screenshots/home-mobile.jpg" width="320" alt="手机端首页">
 
 ## 跑起来
 
