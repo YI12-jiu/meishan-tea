@@ -8,6 +8,8 @@
 
 线上版本：<https://meishan-tea.app.workbuddy.host/>
 
+演示视频：<https://github.com/YI12-jiu/meishan-tea/releases/tag/v1.0>（4 分钟，43 MB）
+
 ## 为什么做这个站
 
 安化黑茶不好入门。三尖、三砖、一卷，光名字就能劝退一半人；好不容易买了块茯砖，掰开看见里面长毛，又分不清是金花还是霉变。
